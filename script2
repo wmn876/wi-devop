@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# assign the action
+ACTION=${1:-launch}
+
+if [ -z "$1" ]
+	then
+		echo "No argument supplied, default action is: $ACTION"
+	else
+		echo "Initializing $ACTION."
+fi
